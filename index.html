@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Proyecto #3 - Modal</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="modal">
+            <div class="title">
+                <h2>¿En que ciudad estás?</h2>
+            </div>
+            <div class="text">
+                <p>Recuerda que nuestros precios y cobertura de productos de supermercado varían según tu ubicación.</p>
+                <p>Para brindarte una mejor experiencia selecciona tu departamento y ciudad</p>
+            </div>
+            <div class="inputs">
+                <input list="Depto" class="input" placeholder="Departamento">
+                <datalist id="Depto">
+                    <option value="Amazonas"></option>
+                    <option value="Antioquia"></option>
+                </datalist>
+
+                <input list="Depto" class="input" placeholder="Ciudad">
+                <section id="Depto">
+                    <option value="Amazonas"></option>
+                    <option value="Antioquia"></option>
+                </section>
+            </div>
+            <div class="submitcontainer">
+                <button type="submit" class="submitbutton">ELEGIR</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
